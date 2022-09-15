@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form-Validator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+<center>
+    <div class="block p-6 rounded-lg shadow-lg bg-white max-w-md content-center my-10">
+
+        <form class = "" id = 'form'>
+            <p class = 'mb-10 text-xl'>Form Validator</p>
+            <div class="grid grid-cols-2 gap-4">
+                <div class="form-group mb-6">
+                    <input type="text" class="form-control
+              block
+              w-full
+              px-3
+              py-1.5
+              text-base
+              font-normal
+              text-gray-700
+              bg-white bg-clip-padding
+              border border-solid border-gray-300
+              rounded
+              transition
+              ease-in-out
+              m-0
+              focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="name" aria-describedby="emailHelp123" placeholder="Full Name"></div>
+            <div class="form-group mb-6">
+                <input type="email" class="form-control block
+        w-full
+        px-3
+        py-1.5
+        text-base
+        font-normal
+        text-gray-700
+        bg-white bg-clip-padding
+        border border-solid border-gray-300
+        rounded
+        transition
+        ease-in-out
+        m-0
+        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="email"
+                       placeholder="Email address">
+            </div>
+            <div class="form-group mb-6">
+                <input type="password" class="form-control block
+        w-full
+        px-3
+        py-1.5
+        text-base
+        font-normal
+        text-gray-700
+        bg-white bg-clip-padding
+        border border-solid border-gray-300
+        rounded
+        transition
+        ease-in-out
+        m-0
+        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="password"
+                       placeholder="Password">
+            </div>
+            <div class="form-group mb-6">
+                <input type="date" class="form-control block
+        w-full
+        px-3
+        py-1.5
+        text-base
+        font-normal
+        text-gray-700
+        bg-white bg-clip-padding
+        border border-solid border-gray-300
+        rounded
+        transition
+        ease-in-out
+        m-0
+        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="dob"
+                       placeholder="Date of Birth">
+            </div>
+            <div class="form-group form-check text-center mb-6">
+                <input type="checkbox"
+                       class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer"
+                       id="acceptTerms" checked>
+                <label class="form-check-label inline-block text-gray-800">Agree to Terms and Conditions</label>
+            </div>
+            <button type="submit" class="
+                  w-full
+                  px-6
+                  py-2.5
+                  bg-blue-600
+                  text-white
+                  font-medium
+                  text-xs
+                  leading-tight
+                  uppercase
+                  rounded
+                  shadow-md
+                  hover:bg-blue-700 hover:shadow-lg
+                  focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0
+                  active:bg-blue-800 active:shadow-lg
+                  transition
+                  duration-150
+                   ease-in-out" id = "submit">Sign up</button>
+
+                <div>
+                    <h2 style="text-align:center;">Entries</h2>
+                    <div id="entries"></div>
+                </div>
+            </div>
+        </form>
+
+    </div>
+</center>
+</body>
+<script src="script.js"></script>
+</html>
